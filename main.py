@@ -14,8 +14,9 @@ import os
 import argparse
 
 
-def parse_file_names(absolute_path:str)->list[str]:
+def parse_file_names(absolute_path:str):
     return [f for f in os.listdir(absolute_path) if (f.endswith(".mp4") and not f.startswith("._")) ]
+
 def convert(root:str,files:list[str],destination:str):
     for index, f in enumerate(files):
         video = VideoFileClip(os.path.join(root,f))
