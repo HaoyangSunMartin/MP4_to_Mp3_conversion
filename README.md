@@ -25,7 +25,7 @@ if you get the error similar to:
 
 `cannot import name 'volumex' from 'moviepy.video.fx`
 
-please refer to this page[MoviePyFix] for help by changing the __init__.py file of the moviepy:
+please refer to this page[MoviePyFix][1] for help by changing the __init__.py file of the moviepy:
 
 [1]: https://github.com/Zulko/moviepy/issues/591           "MoviePyFix"
 
